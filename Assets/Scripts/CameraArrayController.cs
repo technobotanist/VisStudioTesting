@@ -38,7 +38,7 @@ public class CameraArrayController : MonoBehaviour
         float movementDirectionY = moveDirection.y;
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
         moveDirection.y = curSpeedZ;
-        
+
 
         // Move the controller
         characterController.Move(moveDirection * Time.deltaTime);
