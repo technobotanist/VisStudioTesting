@@ -427,7 +427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkingSpeed: 7.5
-  lookSpeed: 5
+  lookSpeed: 2
   lookXLimit: 45
   verticalSpeed: 5
   canMove: 1
